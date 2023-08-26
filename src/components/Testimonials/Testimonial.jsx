@@ -5,41 +5,36 @@ import "swiper/css";
 
 import { Pagination } from "swiper";
 import "swiper/css/pagination";
-import profilePic1 from "../../img/profile1.jpg";
-import profilePic2 from "../../img/profile2.jpg";
-import profilePic3 from "../../img/profile3.jpg";
+import missao from "../../img/missao.png";
+import visao from "../../img/visao.png";
+import proposito from "../../img/proposito.png";
 import profilePic4 from "../../img/profile4.jpg";
 
 const Testimonial = () => {
   const clients = [
     {
-      img: profilePic1,
+      img: missao,
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+        "Propagar o Evangelho Genuíno de Cristo a todas as Pessoas, Cultivando a Comunhão e conduzir as vidas à verdadeira adoração a Deus.",
     },
     {
-      img: profilePic2,
+      img: visao,
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+        "Ser uma igreja Cristocêntrica, Fiel as Sagradas Escrituras, que transmita o amor de Deus através de suas ações e comunhão dos seus membros, que tenha responsabilidade com o cuidado social, emocional e espiritual de sua comunidade, e que seja comprometida com a obra missionária.",
     },
     {
-      img: profilePic3,
+      img: proposito,
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
-    },
-    {
-      img: profilePic4,
-      review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
-    },
+        "É Adorar a Deus, Edificando a igreja por meio da Palavra Sagrada, levando as Pessoas a uma vida de Obediência, Amor e Serviço a Deus e ao Próximo, Anunciando o Evangelho de Cristo Jesus a todas as Pessoas.",
+    }
   ];
 
   return (
     <div className="t-wrapper" id="testimonial">
       <div className="t-heading">
-        <span>Clients always get </span>
+        {/* <span>Clients always get </span>
         <span>Exceptional Work </span>
-        <span>from me...</span>
+        <span>from me...</span> */}
       <div className="blur t-blur1" style={{ background: "var(--purple)" }}></div>
       <div className="blur t-blur2" style={{ background: "skyblue" }}></div>
 

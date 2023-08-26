@@ -5,10 +5,13 @@ import Fiverr from "../../img/fiverr.png";
 import Amazon from "../../img/amazon.png";
 import Shopify from "../../img/Shopify.png";
 import Facebook from "../../img/Facebook.png";
+import logo_ibc_preta from "../../img/logo_ibc_preta.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 import {Link} from 'react-scroll'
 const Works = () => {
+  const transition = { duration: 2, type: "spring" };
+
   // context
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
@@ -21,57 +24,16 @@ const Works = () => {
         <div className="awesome">
           {/* dark Mode */}
           <span style={{ color: darkMode ? "white" : "" }}>
-            Works for All these
+            Nossa História
           </span>
-          <span>Brands & Clients</span>
+          <span>Um breve resumo</span>
           <spane>
-            Lorem ispum is simpley dummy text of printing of printing Lorem
-            <br />
-            ispum is simpley dummy text of printingLorem ispum is simpley dummy
-            text
-            <br />
-            y dummy text of printingLorem
-            <br />
-            ispum is simpley dummy text of printing
-          </spane>
-          <Link to="contact" smooth={true} spy={true}>
-            <button className="button s-button">Hire Me</button>
-          </Link>
-          <div
-            className="blur s-blur1"
-            style={{ background: "#ABF1FF94" }}
-          ></div>
-        </div>
+          No final do ano 2009, através de uma conversa com o jovem Wesley Arruda Oliveira o pastor Vilar é despertado para a implantação de uma igreja no Valentina de Figueiredo. Ao conversar sobre o assunto com sua esposa Ana Cristina Vilar, decidiram orar a fim de receber orientação de Deus de como e por onde começariam. No período em que estavam orando, tiveram a ideia de colocar o nome da igreja de: Igreja Batista Comunhão. Após orarem durante sete noites de vigília, decidiram fazer o primeiro culto que foi realizado na casa do Pastor Vilar no dia 19 de Janeiro de 2010. Os cultos passaram a ser realizado na residência do casal Carlos Antunes e Judite Arruda pais de Wesley Arruda Oliveira até o mês de Março de 2010. No dia 20 do mesmo mês e ano Tendo Alugado uma casa na Rua Marcos Albino Rafael Nº 157- Planalto da Boa Esperança – Valentina – João Pessoa PB, foi realizou o culto de inauguração da Igreja Batista Comunhão.
 
-        {/* right side */}
-      </div>
-      <div className="w-right">
-        <motion.div
-          initial={{ rotate: 45 }}
-          whileInView={{ rotate: 0 }}
-          viewport={{ margin: "-40px" }}
-          transition={{ duration: 3.5, type: "spring" }}
-          className="w-mainCircle"
-        >
-          <div className="w-secCircle">
-            <img src={Upwork} alt="" />
-          </div>
-          <div className="w-secCircle">
-            <img src={Fiverr} alt="" />
-          </div>
-          <div className="w-secCircle">
-            <img src={Amazon} alt="" />
-          </div>{" "}
-          <div className="w-secCircle">
-            <img src={Shopify} alt="" />
-          </div>
-          <div className="w-secCircle">
-            <img src={Facebook} alt="" />
-          </div>
-        </motion.div>
-        {/* background Circles */}
-        <div className="w-backCircle blueCircle"></div>
-        <div className="w-backCircle yellowCircle"></div>
+            No dia 10 de Agosto de 2014, Deus nos Presenteou com a Aquisição do prédio próprio localizado na Avenida Belém, s/n Planalto da Boa Esperança – Valentina – João Pessoa - PB, Onde a Igreja tem Funcionado e Realizado seus Trabalhos, para a Gloria de Deus. 
+            <br />
+          </spane>
+        </div>
       </div>
     </div>
   );

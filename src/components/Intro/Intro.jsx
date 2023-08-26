@@ -9,6 +9,7 @@ import boy from "../../img/boy.png";
 import culto from "../../img/culto.png";
 import youtube from "../../img/youtube.jpeg";
 import logo_ibc from "../../img/logo_ibc.png";
+import logo_ibc_preta from "../../img/logo_ibc_preta.png";
 import humble from "../../img/humble.png";
 import heartemoji from "../../img/heartemoji.png";
 import FloatinDiv from "../FloatingDiv/FloatingDiv";
@@ -51,17 +52,17 @@ const Intro = () => {
       {/* right image side */}
       <div className="i-right"> 
         <img src={Vector2} alt="" />
-        <img src={vetorAzul} alt="" />
+        <img src={Vector1} alt="" />
         
         <img src={logo_ibc} alt="" />
         {/* animation */}
-        {/* <motion.img
+        <motion.img
           initial={{ left: "-36%" }}
           whileInView={{ left: "-24%" }}
           transition={transition}
-          src={glassesimoji}
+          src={logo_ibc_preta}
           alt=""
-        /> */}
+        />
 
         <motion.div
           initial={{ top: "-4%", left: "74%" }}
