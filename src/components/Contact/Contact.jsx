@@ -35,8 +35,16 @@ const Contact = () => {
       <div className="w-left">
         <div className="awesome">
           {/* darkMode */}
-          <span style={{color: darkMode?'white': ''}}>Get in Touch</span>
-          <span>Contact me</span>
+          <span style={{color: darkMode?'white': ''}}></span>
+          <span></span>
+          <div className="t-heading">
+            <span style={{color: '#242D49'}}>Venha nos </span>
+            <span>Visitar! </span>
+          </div>
+          <br/>
+          <span>
+              Nosso endereço é: Avenida Belém, s/n Planalto da Boa Esperança – Valentina – João Pessoa - PB
+          </span>
           <div
             className="blur s-blur1"
             style={{ background: "#ABF1FF94" }}
@@ -45,8 +53,11 @@ const Contact = () => {
       </div>
       {/* right side form */}
       <div className="c-right">
-        <form ref={form} onSubmit={sendEmail}>
-          <input type="text" name="user_name" className="user"  placeholder="Name"/>
+        
+        {/* <form ref={form} onSubmit={sendEmail}>
+          <span type="text" name="user_name" className="user"  placeholder="Name">
+          Avenida Belém, s/n Planalto da Boa Esperança – Valentina – João Pessoa - PB
+          </span>
           <input type="email" name="user_email" className="user" placeholder="Email"/>
           <textarea name="message" className="user" placeholder="Message"/>
           <input type="submit" value="Send" className="button"/>
@@ -55,7 +66,7 @@ const Contact = () => {
             className="blur c-blur1"
             style={{ background: "var(--purple)" }}
           ></div>
-        </form>
+        </form> */}
       </div>
     </div>
   );

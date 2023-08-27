@@ -7,14 +7,15 @@ import Ecommerce from "../../img/ecommerce.png";
 import HOC from "../../img/hoc.png";
 import MusicApp from "../../img/musicapp.png";
 import { themeContext } from "../../Context";
+import logo from "../../img/logo.jpeg";
 const Portfolio = () => {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
   return (
     <div className="portfolio" id="portfolio">
       {/* heading */}
-      <span style={{color: darkMode?'white': ''}}>Recent Projects</span>
-      <span>Portfolio</span>
+      <span style={{color: darkMode?'white': ''}}>Alguns de nossos</span>
+      <span>Momentos</span>
 
       {/* slider */}
       <Swiper
@@ -24,16 +25,16 @@ const Portfolio = () => {
         className="portfolio-slider"
       >
         <SwiperSlide>
-          <img src={Sidebar} alt="" />
+          <img src={logo} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={Ecommerce} alt="" />
+          <img src={logo} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={MusicApp} alt="" />
+          <img src={logo} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={HOC} alt="" />
+          <img src={logo} alt="" />
         </SwiperSlide>
       </Swiper>
     </div>

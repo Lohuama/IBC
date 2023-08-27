@@ -103,6 +103,7 @@
     flex-direction: column;
     gap: 7rem;
     height: 64rem;
+    width: 140%;
   }
 
   .i-right {

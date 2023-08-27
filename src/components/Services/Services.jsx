@@ -8,6 +8,7 @@ import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 import Resume from './resume.pdf';
 
+
 const Services = () => {
   // context
   const theme = useContext(themeContext);
@@ -24,7 +25,7 @@ const Services = () => {
       {/* left side */}
       <div className="awesome">
         {/* dark mode */}
-        <span style={{ color: darkMode ? "white" : "" }}>Conheça Nossos Grupos: </span>
+        <span style={{ color: darkMode ? "white" : "" }}>Conheça Nossos Grupos </span>
         <span>Cresça Conosco!</span>
         <spane>
         Em nossa jornada de fé, a caminhada em grupo fortalece e enriquece. Na Igreja Batista Comunhão, 

@@ -9,6 +9,11 @@
     gap: 2rem;
     position: relative;
 }
+@media (max-width: 768px) {
+    .t-wrapper {
+        margin-top: 44rem; /* Ajuste este valor conforme necessário */
+    }
+}
 .t-heading{
     align-self: start;
 }
