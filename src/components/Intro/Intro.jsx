@@ -16,6 +16,7 @@ import FloatinDiv from "../FloatingDiv/FloatingDiv";
 import Github from "../../img/github.png";
 import LinkedIn from "../../img/linkedin.png";
 import vetorAzul from "../../img/vetorAzul.png";
+import arte from "../../img/arte.png";
 import Instagram from "../../img/instagram.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
@@ -47,14 +48,15 @@ const Intro = () => {
         <div className="i-icons">
           <img src={youtube} alt="" />
           <img src={Instagram} alt="" />
-        </div>
       </div>
+          <span style={{display: 'block', fontWeight: '100',fontSize: '14px ', color: '#788097', marginTop: ' -37px'}}>   Click nos ícones e conheça nossas redes sociais</span>
+        </div>
       {/* right image side */}
       <div className="i-right"> 
-        <img src={Vector2} alt="" />
-        <img src={Vector1} alt="" />
+        <img src={''} alt="" />
+        <img src={''} alt="" />
         
-        <img src={logo_ibc} alt="" />
+        <img src={arte} alt="" />
         {/* animation */}
         <motion.img
           initial={{ left: "-36%" }}
