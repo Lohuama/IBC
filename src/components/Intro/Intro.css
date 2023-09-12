@@ -71,9 +71,9 @@
 }
 .i-right > :nth-child(3) {
   transform: scale(1.4);
-    left: 33%;
-    width: 41%;
-    top: 5%
+  left: 21%;
+  width: 58%;
+  top: 5%
 }
 .i-right > :nth-child(4) {
   transform: scale(0.62);

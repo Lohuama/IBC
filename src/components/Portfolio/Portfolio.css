@@ -1,3 +1,93 @@
+.image-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.image-modal {
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+  position: relative;
+  padding: 20px;
+  text-align: center;
+}
+
+.expanded-image {
+  max-width: 70%;
+  max-height: 70%;
+  object-fit: contain;
+}
+
+.close-button {
+  position: absolute;
+  top: 21px;
+  right: 211px;
+  background: none;
+  border: none;
+  color: red;
+  font-size: 20px;
+  cursor: pointer;
+  font-size: 30px;
+}
+.arrow-button {
+  background: transparent;
+  border: none;
+  font-size: 24px; /* Tamanho do símbolo de seta, ajuste conforme necessário */
+  color: #000; /* Cor do símbolo de seta, ajuste conforme necessário */
+  display: flex; /* Ativar flexbox para alinhar verticalmente */
+  align-items: center; /* Centralizar verticalmente */
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+}
+
+/* Estilize os botões de seta aqui, por exemplo: */
+.arrow-button:hover {
+  color: #ff0000; /* Altere a cor quando o mouse estiver sobre o botão */
+}
+.prev-button,
+.next-button {
+  background: transparent;
+  border: none;
+  font-size: 24px; /* Tamanho do símbolo de seta, ajuste conforme necessário */
+  color: #fca61f; /* Cor do símbolo de seta, ajuste conforme necessário */
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  line-height: 1; /* Adicione essa linha para ajustar a altura do botão */
+  padding: 10px; /* Adicione esse padding para aumentar a área de clique */
+}
+
+.prev-button {
+  left: 10px;
+  border-right: 3px solid #fca61f; /* Adicione uma borda à direita para criar um traço */
+}
+
+.next-button {
+  right: 10px;
+  border-left: 3px solid #fca61f; /* Adicione uma borda à esquerda para criar um traço */
+}
+
+/* Estilize os botões de seta aqui, por exemplo: */
+.prev-button:hover,
+.next-button:hover {
+  color: #ff0000; /* Altere a cor quando o mouse estiver sobre o botão */
+  border-color: #ff0000; /* Altere a cor da borda quando o mouse estiver sobre o botão */
+}
+
+
+
+/**/
 .portfolio {
   display: flex;
   align-items: center;
