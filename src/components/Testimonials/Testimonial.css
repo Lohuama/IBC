@@ -1,3 +1,19 @@
+.photo-container {
+    display: flex;
+    justify-content: space-between; /* Distribui as fotos igualmente na largura */
+  }
+  
+  .photo {
+    flex: 1; /* Cada foto ocupa uma parte igual do espaço disponível */
+    max-width: calc(33.33% - 10px); /* Define a largura máxima para que sejam exibidas 3 fotos lado a lado */
+    margin-right: 10px; /* Espaçamento entre as fotos (opcional) */
+  }
+  
+  /* Para evitar que a última foto tenha uma margem direita */
+  .photo:last-child {
+    margin-right: 0;
+  }
+  
 .t-wrapper{
     padding:  0 3rem 0 3rem;;
     height: 100vh;

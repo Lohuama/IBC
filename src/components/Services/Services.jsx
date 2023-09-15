@@ -6,7 +6,12 @@ import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
-import Resume from './resume.pdf';
+
+import jovens from '../../img/jovens.png'
+import music from '../../img/adejuc.png'
+import infantil from '../../img/infantil.png'
+import mulheres from '../../img/mulheres.png'
+import casal from '../../img/casal.png'
 
 
 const Services = () => {
@@ -49,7 +54,7 @@ const Services = () => {
           transition={transition}
         >
           <Card
-            emoji={HeartEmoji}
+            emoji={music}
             heading={"Grupo de Louvor Comunhão"}
           />
         </motion.div>
@@ -60,7 +65,7 @@ const Services = () => {
           transition={transition}
         >
           <Card
-            emoji={Glasses}
+            emoji={jovens}
             heading={"Adejuc"}
           />
         </motion.div>
@@ -71,7 +76,7 @@ const Services = () => {
           transition={transition}
         >
           <Card
-            emoji={Humble}
+            emoji={infantil}
             heading={"Ministério Infantil Comunhão"}
             color="rgba(252, 166, 31, 0.45)"
           />
@@ -84,7 +89,7 @@ const Services = () => {
           transition={transition}
         >
           <Card
-            emoji={Glasses}
+            emoji={mulheres}
             heading={"Ministério Feminino Comunhão"}
           />
         </motion.div>
@@ -95,7 +100,7 @@ const Services = () => {
           transition={transition}
         >
           <Card
-            emoji={Humble}
+            emoji={casal}
             heading={"Ministério Casais Comunhão"}
             color="rgba(252, 166, 31, 0.45)"
           />
