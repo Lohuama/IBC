@@ -8,7 +8,7 @@ import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 
 import jovens from '../../img/jovens.png'
-import music from '../../img/adejuc.png'
+import music from '../../img/music.png'
 import infantil from '../../img/infantil.png'
 import mulheres from '../../img/mulheres.png'
 import casal from '../../img/casal.png'
