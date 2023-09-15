@@ -26,7 +26,7 @@ const navbar = () => {
             </li>
             <li>
               <Link to="services" spy={true} smooth={true}>
-                Grupos
+                Ministérios
               </Link>
             </li>
             <li>

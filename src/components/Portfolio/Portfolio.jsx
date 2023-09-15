@@ -70,7 +70,7 @@ const Portfolio = () => {
           autoplay={{ delay: 3000 }}
           loop
           className="swiper-container"
-          style={{ width: "70%", maxWidth: "600px" }}
+          style={{ width: "70%", maxWidth: "600px", marginBottom: "250px" }}
           spaceBetween={10}
         >
           {slides.map((slide, index) => (

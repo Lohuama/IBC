@@ -38,12 +38,13 @@ const Contact = () => {
           <span style={{color: darkMode?'white': ''}}></span>
           <span></span>
           <div className="t-heading">
-            <span style={{color: '#242D49'}}>Venha nos </span>
-            <span>Visitar! </span>
+            <span style={{color: '#242D49'}}>O Templo da  </span>
+            <span >Igreja Batista Comunhão  </span>
+            <span style={{color: '#242d49'}}>está localizado em: </span>
           </div>
           <br/>
           <span>
-              Nosso endereço é: Avenida Belém, s/n Planalto da Boa Esperança – Valentina – João Pessoa - PB
+            Avenida Belém, s/n Planalto da Boa Esperança – Valentina – João Pessoa - PB
           </span>
           <div
             className="blur s-blur1"

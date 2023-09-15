@@ -30,18 +30,20 @@ const Services = () => {
       {/* left side */}
       <div className="awesome">
         {/* dark mode */}
-        <span style={{ color: darkMode ? "white" : "" }}>Conheça Nossos Grupos </span>
+        <span style={{ color: darkMode ? "white" : "" }}>Conheça Nossos Ministérios </span>
         <span>Cresça Conosco!</span>
         <spane>
-        Em nossa jornada de fé, a caminhada em grupo fortalece e enriquece. Na Igreja Batista Comunhão, 
+        Em nossa jornada de fé, a caminhada em grupo fortalece e enriquece. 
         <br />
-        Oferecemos uma variedade de grupos que o ajudarão a crescer espiritualmente e a construir relacionamentos significativos.
+        Na Igreja Batista Comunhão, temos alguns Ministérios que o ajudarão <br /> a crescer espiritualmente e a construir 
         <br />
-        De grupos de estudo bíblico a encontros de oração e atividades de serviço comunitário,
+        relacionamentos significativos que te ajudarão na caminhada cristã.
         <br />
-        há um lugar para você se conectar, aprender e compartilhar. 
+        De grupos de estudo bíblico a encontros de oração e atividades de ,
         <br />
-        Junte-se a um de nossos grupos e embarque em uma jornada de crescimento mútuo.
+        serviço comunitário há um lugar para você se conectar, aprender e compartilhar. 
+        <br />
+        Junte-se a nós, faça parte de um dos nossos ministérios e embarque em uma <br />  jornada de crescimento mútuo.
         </spane>
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
       </div>
