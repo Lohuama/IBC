@@ -6,10 +6,6 @@ import 'swiper/css/navigation'; // Importe os estilos de navegação do Swiper
 import SwiperCore, { Navigation } from 'swiper';
 import { Pagination } from "swiper";
 import "swiper/css/pagination";
-import missao from "../../img/missao.png";
-import visao from "../../img/visao.png";
-import proposito from "../../img/proposito.png";
-import profilePic4 from "../../img/profile4.jpg";
 
 SwiperCore.use([Navigation]);
 
