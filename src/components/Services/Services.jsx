@@ -26,7 +26,7 @@ const Services = () => {
   };
 
   return (
-    <div className="services" id="services">
+    <div className="services" id="services" style={{marginBottom: '250px'}}>
       {/* left side */}
       <div className="awesome">
         {/* dark mode */}

@@ -44,7 +44,10 @@ const Contact = () => {
           </div>
           <br/>
           <span>
-            Avenida Belém, s/n Planalto da Boa Esperança – Valentina – João Pessoa - PB
+            Avenida Belém, s/n Planalto da Boa Esperança – Valentina – João Pessoa - PB, CEP: 58065051
+          </span>
+          <span>
+            <b style={{color: '#242d49', fontWeight: 'bold'}}>Ponto de Referência:</b> Uma rua enfrente ao Detran do Valentina, Na rua da pizzaria e lanchonete gourmet JG
           </span>
           <div
             className="blur s-blur1"
