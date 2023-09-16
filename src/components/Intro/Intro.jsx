@@ -21,10 +21,16 @@ const Intro = () => {
       <div className="i-left">
         <div className="i-name">
           {/* yahan change hy darkmode ka */}
-          <span style={{ color: darkMode ? "white" : "" }}>Bem-vindos à Igreja Batista Comunhão</span>
-          <span style={{display: 'none'}}>IBC</span>
+          <span style={{ color: darkMode ? "white" : "" }}>
+            Bem-vindos à Igreja Batista Comunhão
+          </span>
+          <span style={{ display: "none" }}>IBC</span>
           <span>
-          Somos uma comunidade dedicada a compartilhar o amor do Evangelho. Nosso foco é amar a Deus e ao próximo. Junte-se a nós para cultos inspiradores, estudos bíblicos e projetos de serviço à comunidade. Seja parte da nossa família enquanto crescemos espiritualmente e impactamos vidas em João Pessoa.
+            Somos uma comunidade dedicada a compartilhar o amor do Evangelho.
+            Nosso foco é amar a Deus e ao próximo. Junte-se a nós para cultos
+            inspiradores, estudos bíblicos e projetos de serviço à comunidade.
+            Seja parte da nossa família enquanto crescemos espiritualmente e
+            impactamos vidas em João Pessoa.
           </span>
         </div>
         <Link to="contact" smooth={true} spy={true}>
@@ -32,16 +38,31 @@ const Intro = () => {
         </Link>
         {/* social icons */}
         <div className="i-icons">
-          <img src={youtube} alt="" />
-          <img src={Instagram} alt="" />
-      </div>
-          <span style={{display: 'block', fontWeight: '100',fontSize: '14px ', color: '#788097', marginTop: ' -37px'}}>   Click nos ícones e conheça nossas redes sociais</span>
+          <a href="https://youtube.com/@IBCIgrejaBatistaComunhao?si=OlaFHmbum7RwlPj3">
+            <img  style={{ height: '83%'}} src={youtube} alt="YouTube" />
+          </a>
+          <a href="https://instagram.com/igreja.ibc?igshid=MzRlODBiNWFlZA==">
+            <img src={Instagram} alt="Instagram" />
+          </a>
         </div>
+        <span
+          style={{
+            display: "block",
+            fontWeight: "100",
+            fontSize: "14px ",
+            color: "#788097",
+            marginTop: " -37px",
+          }}
+        >
+          {" "}
+          Click nos ícones e conheça nossas redes sociais
+        </span>
+      </div>
       {/* right image side */}
-      <div className="i-right"> 
-        <img src={''} alt="" />
-        <img src={''} alt="" />
-        
+      <div className="i-right">
+        <img src={""} alt="" />
+        <img src={""} alt="" />
+
         <img src={arte} alt="" />
         {/* animation */}
         <motion.img

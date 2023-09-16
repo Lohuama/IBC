@@ -18,7 +18,6 @@ class Mapa extends Component {
 
     return (
       <div>
-        <h1>Localização no Google Maps</h1>
         <Map
           google={this.props.google}
           zoom={14}
