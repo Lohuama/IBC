@@ -14,7 +14,7 @@
   border: 7px solid var(--orangeCard);
   box-shadow: var(--boxShadow);
   border-radius: 20px;
-  padding: 0px 26px 2rem 26px;
+  padding: 0px 26px 3rem 26px;
 }
 .card span:nth-of-type(2) {
   color: var(--gray);

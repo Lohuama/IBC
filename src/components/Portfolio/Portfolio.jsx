@@ -84,6 +84,7 @@ const Portfolio = () => {
                     height: "100%",
                     objectFit: "cover",
                     cursor: "pointer",
+                    borderRadius: '20px'
                   }}
                   onClick={() => handleImageClick(slide, index)}
                 />

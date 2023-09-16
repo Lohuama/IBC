@@ -35,15 +35,15 @@ const Services = () => {
         <spane>
         Em nossa jornada de fé, a caminhada em grupo fortalece e enriquece. 
         <br />
-        Na Igreja Batista Comunhão, temos alguns Ministérios que o ajudarão <br /> a crescer espiritualmente e a construir 
+        Na Igreja Batista Comunhão, temos alguns Ministérios que o ajudarão <br /> a crescer espiritualmente e a construir relacionamentos significativos
         <br />
-        relacionamentos significativos que te ajudarão na caminhada cristã.
+         que te ajudarão na caminhada cristã.
         <br />
         De grupos de estudo bíblico a encontros de oração e atividades de ,
         <br />
-        serviço comunitário há um lugar para você se conectar, aprender e compartilhar. 
+        serviço comunitário há um lugar para você se conectar, aprender e  
         <br />
-        Junte-se a nós, faça parte de um dos nossos ministérios e embarque em uma <br />  jornada de crescimento mútuo.
+        compartilhar. Junte-se a nós, faça parte de um dos nossos ministérios  <br />e  embarque em uma  jornada de crescimento mútuo.
         </spane>
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
       </div>
