@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import "./CardDetail.css";
 import PhotoGallery from "../photoGallery/PhotoGallery";
 
-function CardDetail({ heading, onClose , images, onOutsideClick}) {
+function CardDetail({ heading, onClose , images, resumo}) {
   return (
     <AnimatePresence>
       <motion.div
@@ -18,9 +18,7 @@ function CardDetail({ heading, onClose , images, onOutsideClick}) {
         </button>
         <div className="card-content">
         <h2>{heading}</h2>
-          <p>
-            Aqui está um resumo da história do ministério de louvor da Igreja Batista Comunhão: [Texto do resumo da história aqui.]
-          </p>
+          <p style={{fontSize: '16px'}}>{resumo}</p>
           <PhotoGallery images={images} />
         </div>
       </motion.div>

@@ -54,6 +54,8 @@ const Services = () => {
         initial: { left: "25rem" },
         whileInView: { left: "12rem" },
       },
+      resumo: `music
+      `
     },
     {
       emoji: jovens,
@@ -65,6 +67,12 @@ const Services = () => {
         initial: { left: "-11rem", top: "10rem" },
         whileInView: { left: "-4rem" },
       },
+      resumo: `O Ministério ADEJUC é um Ministério voltado para edificação dos Jovens e Adolescentes da igreja.
+      \nQue tem como Objetivo Esclarecer e Ensinar qual o papel do Jovem e do Adolescente no Reino de Deus e na sociedade.
+      Esse Ministério existe para Desenvolver a comunhão e integração entre eles, Contribuir para o desenvolvimento e Crescimento Espiritual de cada um deles e Participar de maneira direta e ativa na vida, problemas, dificuldades e necessidades de cada um dos Jovens e Adolescente do Ministério.
+      A IBC reconhece a necessidade de relacionamentos entre os jovens e adolescentes, e a dificuldade de seus envolvimentos no serviço do Senhor. Também está consciente do peso da influência mundanas em suas vidas. Portanto, faz-se necessário um trabalho onde possam desenvolver seus dons, criar laços de comunhão, terem momentos de aprendizado e Crescimento, contribuindo assim para sua maturidade cristã. 
+      `
+      
     },
     {
       emoji: infantil,
@@ -77,6 +85,8 @@ const Services = () => {
         initial: { top: "13rem", left: "25rem" },
         whileInView: { left: "12rem" },
       },
+      resumo: `infantil
+      `
     },
     {
       emoji: mulheres,
@@ -88,10 +98,12 @@ const Services = () => {
         initial: { left: "-11rem", top: "23rem" },
         whileInView: { left: "-4rem" },
       },
+      resumo: `mulheres
+      `
     },
     {
       emoji: casal,
-      heading: "Ministério Casais Comunhão",
+      heading: "Ministério de Casais",
       titulo: "Ministério de Casais",
       resumo: "Resumo do Ministério de Casais",
       color: "rgba(252, 166, 31, 0.45)",
@@ -100,6 +112,11 @@ const Services = () => {
         initial: { top: "27rem", left: "25rem" },
         whileInView: { left: "12rem" },
       },
+      resumo: `O Ministério de Casais é um Ministério voltado para edificação dos casais da Igreja. Este Ministério existe para servir, ajudar e auxiliar a vida conjugal dos Casais. 
+      Que tem como Objetivo esclarecer qual o papel do homem e da mulher no Reino de Deus, na família e na sociedade, não só de Maneira pessoal, mas principalmente como Casal.
+      A Ideia do Ministério é Desenvolvendo a comunhão e integração entre eles, fazendo com que eles vivam de maneira Bíblica que Agrade a Deus, Contribuindo assim para o desenvolvimento e Crescimento Espiritual de cada um deles e Participando de maneira direta e ativa na vida Conjugal e Particular de cada um, tentando ajudar a lhe dá com os problemas, dificuldades e necessidades que cada um dos Casais possam ter na caminhada.
+      A IBC sabe e reconhece a necessidade de relacionamentos entre os casais, também estamos cientes da dificuldade de seus envolvimentos no serviço do Senhor, sabemos do peso da influência mundana e das más influencias em suas vidas. Portanto, faz-se necessário um trabalho onde possam desenvolver seus dons, criar laços de comunhão, terem momentos de aprendizado e Crescimento, contribuindo assim para sua conjugal e maturidade cristã.
+      Sabemos o quando o Casamento é atacado e bombardeado diariamente, e o ministério de Casais tem como Meta ajuda os casais a lhe da com os seu conflitos, e a viverem juntos para sempre, atá que a morte os separe. `
     },
   ];
 
@@ -149,14 +166,14 @@ const Services = () => {
         ))}
       </div>
       {isCardDetailVisible && selectedCardIndex !== -1 && (
-        <CardDetail
+        <CardDetail style={{marginBottom: '10px', fontSize: '6px !important'}}
           imageUrl={cards[selectedCardIndex].emoji}
-          heading={cards[selectedCardIndex].titulo}
+          heading={cards[selectedCardIndex].heading}
           onClose={handleCloseCardDetail}
           images={cards[selectedCardIndex].images}
-        >
-          <p>{cards[selectedCardIndex].resumo}</p>
-        </CardDetail>
+          resumo={cards[selectedCardIndex].resumo}
+          />
+          
       )}
     </div>
   );
