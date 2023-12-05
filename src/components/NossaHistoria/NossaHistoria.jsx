@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
-import "./Works.css";
+import "./NossaHistoria.css";
 import { themeContext } from "../../Context";
-const Works = () => {
+const NossaHistoria = () => {
   const transition = { duration: 2, type: "spring" };
 
   // context
@@ -31,4 +31,4 @@ const Works = () => {
   );
 };
 
-export default Works;
+export default NossaHistoria;

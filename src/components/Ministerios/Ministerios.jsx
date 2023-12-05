@@ -1,5 +1,5 @@
 import React, { useContext, useState } from "react";
-import "./Services.css";
+import "./Ministerios.css";
 import Card from "../Card/Card";
 import CardDetail from "../cardDetail/CardDetail";
 import { themeContext } from "../../Context";
@@ -12,13 +12,14 @@ import mulheres from "../../img/mulheres.png";
 import casal from "../../img/casal.png";
 
 import louvor1 from '../../img/louvor.jpeg'
+import casal2 from '../../img/casais.jpeg'
 import adejuc1 from '../../img/adejuc.jpg'
 import infantil1 from '../../img/infantil.jpg'
 import mulheres1 from '../../img/rosa.jpg'
 import mulheres2 from '../../img/senhoras.jpg'
 import mulheres3 from '../../img/entreIrmas.jpg'
 
-const Services = () => {
+const Ministerios = () => {
   const [isCardDetailVisible, setIsCardDetailVisible] = useState(false);
   const [selectedCardIndex, setSelectedCardIndex] = useState(-1);
 
@@ -48,7 +49,7 @@ const Services = () => {
       heading: "Grupo de Louvor Comunhão",
       titulo: "Grupo de Louvor Comunhão",
       resumo: "Resumo do Grupo de Louvor",
-      images: [louvor1, jovens,], // Substitua com as URLs reais das imagens
+      images: [louvor1], // Substitua com as URLs reais das imagens
       color: "rgba(252, 166, 31, 0.45)",
       animation: {
         initial: { left: "25rem" },
@@ -62,7 +63,7 @@ const Services = () => {
       heading: "Adejuc",
       titulo: "Adejuc",
       resumo: "Resumo do Adejuc",
-      images: [adejuc1, jovens], // Substitua com as URLs reais das imagens
+      images: [adejuc1], // Substitua com as URLs reais das imagens
       animation: {
         initial: { left: "-11rem", top: "10rem" },
         whileInView: { left: "-4rem" },
@@ -80,7 +81,7 @@ const Services = () => {
       titulo: "Ministério Infantil",
       resumo: "Resumo do Ministério Infantil",
       color: "rgba(252, 166, 31, 0.45)",
-      images: [infantil1, infantil], // Substitua com as URLs reais das imagens
+      images: [infantil1], // Substitua com as URLs reais das imagens
       animation: {
         initial: { top: "13rem", left: "25rem" },
         whileInView: { left: "12rem" },
@@ -93,7 +94,7 @@ const Services = () => {
       heading: "Ministério Feminino Comunhão",
       titulo: "Ministério Feminino",
       resumo: "Resumo do Ministério Feminino",
-      images: [mulheres1, mulheres2, mulheres3, mulheres], // Substitua com as URLs reais das imagens
+      images: [mulheres1, mulheres2, mulheres3], // Substitua com as URLs reais das imagens
       animation: {
         initial: { left: "-11rem", top: "23rem" },
         whileInView: { left: "-4rem" },
@@ -107,7 +108,7 @@ const Services = () => {
       titulo: "Ministério de Casais",
       resumo: "Resumo do Ministério de Casais",
       color: "rgba(252, 166, 31, 0.45)",
-      images: [casal, music], // Substitua com as URLs reais das imagens
+      images: [casal2], // Substitua com as URLs reais das imagens
       animation: {
         initial: { top: "27rem", left: "25rem" },
         whileInView: { left: "12rem" },
@@ -179,4 +180,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default Ministerios;

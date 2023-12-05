@@ -11,6 +11,16 @@
   z-index: 9999;
 }
 
+.map {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px; /* Ajuste conforme necessário */
+  margin: 0 auto; /* Isso centraliza a div horizontalmente na página */
+
+}
+
+
 .image-modal {
   max-width: 100%;
   max-height: 100%;

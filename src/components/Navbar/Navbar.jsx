@@ -48,7 +48,7 @@ const navbar = () => {
           </ul>
         </div>
         <Link to="#" spy={true} smooth={true}>
-        <button className="button n-button">Login</button>
+        <button style={{display: 'none'}} className="button n-button">Login</button>
         </Link>
       </div>
     </div>

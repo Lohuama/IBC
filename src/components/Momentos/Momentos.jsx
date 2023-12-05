@@ -1,5 +1,5 @@
 import React, { useContext, useState } from "react";
-import "./Portfolio.css";
+import "./Momentos.css";
 import { themeContext } from "../../Context";
 import adejuc from "../../img/adejuc.jpg";
 import batismo from "../../img/batismo.jpg";
@@ -16,7 +16,7 @@ import "swiper/css/pagination";
 
 SwiperCore.use([Pagination, Autoplay]);
 
-const Portfolio = () => {
+const Momentos = () => {
   const slides = [
     louvor,
     adejuc,
@@ -61,10 +61,10 @@ const Portfolio = () => {
     <div className="hero-carousel-container" id="portfolio">
       <div className="t-heading">
         <span>Alguns de nossos </span>
-        <span>Momentos... </span>
+        <span>Momentos... </span> 
       </div>
       <br />
-      <div className="hero-carousel" style={{ height: "300px" }}>
+      <div className="hero-carousel" style={{ height: "370px" }}>
         <Swiper
           pagination={{ clickable: true }}
           autoplay={{ delay: 3000 }}
@@ -126,4 +126,4 @@ const Portfolio = () => {
   );
 };
 
-export default Portfolio;
+export default Momentos;

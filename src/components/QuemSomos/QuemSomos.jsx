@@ -1,5 +1,5 @@
 import React from "react";
-import "./Testimonial.css";
+import "./QuemSomos.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import 'swiper/css/navigation'; // Importe os estilos de navegação do Swiper
@@ -9,7 +9,7 @@ import "swiper/css/pagination";
 
 SwiperCore.use([Navigation]);
 
-const Testimonial = () => {
+const QuemSomos = () => {
   const clients = [
     {
       img: 'Nossa Missão',
@@ -68,4 +68,4 @@ const Testimonial = () => {
   );
 };
 
-export default Testimonial;
+export default QuemSomos;

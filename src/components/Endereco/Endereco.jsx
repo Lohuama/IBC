@@ -1,9 +1,9 @@
 import React, { useContext, useRef, useState } from "react";
-import "./Contact.css";
+import "./Endereco.css";
 import emailjs from "@emailjs/browser";
 import { themeContext } from "../../Context";
 import Mapa from "../mapa/Mapas";
-const Contact = () => {
+const Endereco = () => {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
   const form = useRef();
@@ -34,7 +34,7 @@ const Contact = () => {
     <div className="contact-form" id="contact">
       {/* left side copy and paste from work section */}
       <div className="w-left">
-        <div className="awesome" style={{marginBottom: '20%'}}>
+        <div className="awesome " style={{marginBottom: '20%'}}>
             {/* darkMode */}
             <span style={{color: darkMode?'white': ''}}></span>
             <span></span>
@@ -49,7 +49,7 @@ const Contact = () => {
               Avenida Belém, s/n Planalto da Boa Esperança – Valentina – João Pessoa - PB, CEP: 58065051
             </span>
             <span>
-              <b style={{color: '#242d49', fontWeight: 'bold'}}>Ponto de Referência:</b> Uma rua enfrente ao Detran do Valentina, Na rua da pizzaria e lanchonete gourmet JG
+              <b style={{color: '#242d49', fontWeight: 'bold'}}>Ponto de Referência:</b> Uma rua em frente ao Detran do Valentina, Na rua da pizzaria e lanchonete gourmet JG
             </span>
             <div
               className="blur s-blur1"
@@ -61,4 +61,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default Endereco;
